@@ -57,7 +57,7 @@ OperaOne-BlueHourTheme/
 ├── wallpaper/
 │   ├── preview.png
 │   ├── *.mp4                    # video wallpapers
-│   ├── previews/                # preview images (.png / .jpg / .webp)
+│   ├── previews/                # preview images
 │   └── color_picker/
 │       ├── accent.png
 │       ├── dark.png
