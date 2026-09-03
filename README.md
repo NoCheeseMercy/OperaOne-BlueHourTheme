@@ -31,7 +31,7 @@ dark color‑set plus 130‑entry light color‑set into a single Opera theme.
 ```
 OperaOneHermesTheme/
 ├── manifest.json              # Opera theme manifest (v3, schema_version 2)
-├── icon.png                   # 218px theme icon
+├── iconimage.png                   # 218px theme icon
 ├── background.js
 ├── wallpaper/
 │   ├── preview.png
