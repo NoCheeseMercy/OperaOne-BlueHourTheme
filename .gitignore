@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*.before-*
+*.repair-*
+
+# Tooling scripts (local validation helper)
+validate_theme.py
+
+# Opera browser profile data (never commit)
+Profile/
+*.profile/
+Opera Software/
+Cookies
+Cookies-journal
+Login Data
+Login Data-journal
+Web Data
+Web Data-journal
+History
+History-journal
+Bookmarks
+Bookmarks.bak
+Preferences
+Secure Preferences
+Local State
+Cache/
+Code Cache/
+GPUCache/
+Local Storage/
+Session Storage/
+IndexedDB/
+Service Worker/

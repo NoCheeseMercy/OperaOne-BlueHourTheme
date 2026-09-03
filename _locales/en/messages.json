@@ -1,0 +1,18 @@
+{
+  "afterhours": {
+    "message": "Night desk"
+  },
+  "bootup": {
+    "message": "Awake"
+  },
+  "lag": {
+    "message": "Soft"
+  },
+  "themeDescription": {
+    "description": "Theme description",
+    "message": "A Opera One anime theme with custom keyboard and browser sounds, no music."
+  },
+  "turbo": {
+    "message": "Sharp"
+  }
+}

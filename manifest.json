@@ -1,0 +1,3786 @@
+{
+  "author": "nocheesemercy",
+  "default_locale": "en",
+  "description": "__MSG_themeDescription__",
+  "developer": {
+    "name": "nocheesemercy"
+  },
+  "icons": {
+    "218": "icon.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "flavor": {
+      "features": [],
+      "hash": "f20c9e2c0e19478eb8d8e4a86c837015",
+      "parent_hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "payload": {
+      "browser_sounds": [
+        {
+          "author": "eyad",
+          "id": "custom-browser",
+          "name": "Blue Hour",
+          "sounds": {
+            "CLICK": [
+              "sounds/MAIN_PAGE_CLICK.mp3"
+            ],
+            "SIDE_PANEL_CLOSED": [
+              "sounds/AI_CLOSE.mp3"
+            ],
+            "SIDE_PANEL_OPENED": [
+              "sounds/AI_OPEN.mp3"
+            ],
+            "SPLIT_SCREEN_CREATE": [
+              "sounds/SPLIT_SCREEN_OPEN.mp3"
+            ],
+            "SPLIT_SCREEN_REMOVE": [
+              "sounds/SPLIT_SCREEN_CLOSE.mp3"
+            ],
+            "TAB_CLOSE": [
+              "sounds/TAB_CLOSE.mp3"
+            ],
+            "TAB_GROUP_COLLAPSE": [
+              "sounds/ISLAND_COLLAPSE.mp3"
+            ],
+            "TAB_GROUP_CREATE": [
+              "sounds/ISLAND_FORM.mp3"
+            ],
+            "TAB_GROUP_EXPAND": [
+              "sounds/ISLAND_FORM.mp3"
+            ],
+            "TAB_INSERT": [
+              "sounds/TAB_OPEN.mp3"
+            ]
+          }
+        }
+      ],
+      "keyboard_sounds": [
+        {
+          "author": "opera-software",
+          "id": "bluehr-keyboard",
+          "name": "Blue Hour Typing",
+          "sounds": {
+            "TYPING_BACKSPACE": [
+              "sounds/TYPE_BACKSPACE.mp3"
+            ],
+            "TYPING_ENTER": [
+              "sounds/TYPE_ENTER.mp3"
+            ],
+            "TYPING_LETTER": [
+              "sounds/TYPE_1.mp3",
+              "sounds/TYPE_2.mp3",
+              "sounds/TYPE_3.mp3"
+            ],
+            "TYPING_SPACE": [
+              "sounds/TYPE_SPACE.mp3"
+            ]
+          }
+        }
+      ],
+      "theme": [
+        {
+          "dark": {
+            "accent": {
+              "h": 336,
+              "l": 58,
+              "s": 93
+            },
+            "background": {
+              "h": 231,
+              "l": 6,
+              "s": 74
+            }
+          },
+          "id": "bluehr-vibe",
+          "light": {
+            "accent": {
+              "h": 184,
+              "l": 46,
+              "s": 76
+            },
+            "background": {
+              "h": 210,
+              "l": 91,
+              "s": 36
+            }
+          },
+          "name": "Blue Hour Neon"
+        },
+        {
+          "dark": {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 10,
+              "s": 0
+            }
+          },
+          "id": "white-frost",
+          "light": {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 97,
+              "s": 0
+            }
+          },
+          "name": "White Frost"
+        },
+        {
+          "dark": {
+            "accent": {
+              "h": 0,
+              "l": 0,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 18,
+              "s": 0
+            }
+          },
+          "id": "black-onyx",
+          "light": {
+            "accent": {
+              "h": 0,
+              "l": 0,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 95,
+              "s": 0
+            }
+          },
+          "name": "Black Onyx"
+        }
+      ],
+      "wallpaper": [
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/crimsonmoon.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/CrimsonMoon.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "crimson-moon",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/crimsonmoon.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/CrimsonMoon.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Crimson Moon",
+          "title": "Crimson Moon"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/Luffy Storm.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/Luffy Storm.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "luffy-storm",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/Luffy Storm.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/Luffy Storm.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Luffy Storm",
+          "title": "Luffy Storm"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/last of us.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/last of us.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "last-of-us",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/last of us.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/last of us.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Last of Us",
+          "title": "Last of Us"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/cat window.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/cat window.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "cat-window",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/cat window.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/cat window.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Cat Window",
+          "title": "Cat Window"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojo.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojo.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "gojo",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojo.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojo.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Gojo",
+          "title": "Gojo"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojotrain.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojotrain.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "gojotrain",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojotrain.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojotrain.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Gojo Train",
+          "title": "Gojo Train"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/sakuratrain.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/sakuratrain.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "sakuratrain",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/sakuratrain.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/sakuratrain.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Sakura Train",
+          "title": "Sakura Train"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/snowyminecraft.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/snowyminecraft.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "snowyminecraft",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/snowyminecraft.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/snowyminecraft.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Snowy Minecraft",
+          "title": "Snowy Minecraft"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/samuraiclouds.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/samuraiclouds.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "samuraiclouds",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/samuraiclouds.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/samuraiclouds.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Samurai Clouds",
+          "title": "Samurai Clouds"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojonight.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojonight.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "gojonight",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/gojonight.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/gojonight.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Gojo Night",
+          "title": "Gojo Night"
+        },
+        {
+          "dark": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/oaknight.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/oaknight.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "full_browser": true,
+          "id": "oaknight",
+          "light": {
+            "groups": [
+              {
+                "layers": [
+                  {
+                    "resource": "wallpaper/oaknight.mp4",
+                    "type": "video"
+                  }
+                ]
+              }
+            ],
+            "preview": {
+              "270x360": "wallpaper/previews/oaknight.png"
+            },
+            "text_color": "#000000",
+            "text_shadow": "#000000"
+          },
+          "name": "Oak Night",
+          "title": "Oak Night"
+        }
+      ]
+    },
+    "schema_version": 2,
+    "settings": [
+      {
+        "id": "color_picker_x_axis",
+        "label": "color-picker-x",
+        "max": 1,
+        "max_label": "__MSG_turbo__",
+        "min": 0,
+        "min_label": "__MSG_lag__",
+        "min_max_labels_translated": true,
+        "name": "color-picker-x-axis",
+        "step": 0.1,
+        "type": "range",
+        "value": 0.58
+      },
+      {
+        "id": "color_picker_y_axis",
+        "label": "color-picker-y",
+        "max": 1,
+        "max_label": "__MSG_bootup__",
+        "min": 0,
+        "min_label": "__MSG_afterhours__",
+        "min_max_labels_translated": true,
+        "name": "color-picker-y-axis",
+        "step": 0.1,
+        "type": "range",
+        "value": 0.34
+      }
+    ],
+    "vibe": {
+      "color-picker-palettes": {
+        "dark": {
+          "accent": "wallpaper/color_picker/accent.png",
+          "background": "wallpaper/color_picker/dark.png"
+        },
+        "light": {
+          "accent": "wallpaper/color_picker/accent.png",
+          "background": "wallpaper/color_picker/light.png"
+        }
+      },
+      "color-sets": {
+        "dark": [
+          {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 82,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 65,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 16,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 48,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 20,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 40,
+              "s": 10
+            },
+            "background": {
+              "h": 210,
+              "l": 12,
+              "s": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 220,
+              "l": 52,
+              "s": 12
+            },
+            "background": {
+              "h": 220,
+              "l": 10,
+              "s": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 56,
+              "s": 12
+            },
+            "background": {
+              "h": 30,
+              "l": 10,
+              "s": 18
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 0,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 18,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 28,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 24,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 200,
+              "l": 28,
+              "s": 8
+            },
+            "background": {
+              "h": 200,
+              "l": 9,
+              "s": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 72,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 14,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 88,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 10,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 92,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 28,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 10,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 90,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 14,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 75,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 18,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 62,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 22,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 32,
+              "s": 12
+            },
+            "background": {
+              "h": 210,
+              "l": 8,
+              "s": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 0,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 30,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 60
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 58,
+              "s": 98
+            },
+            "background": {
+              "h": 30,
+              "l": 10,
+              "s": 58
+            }
+          },
+          {
+            "accent": {
+              "h": 60,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 60,
+              "l": 9,
+              "s": 68
+            }
+          },
+          {
+            "accent": {
+              "h": 90,
+              "l": 58,
+              "s": 96
+            },
+            "background": {
+              "h": 90,
+              "l": 7,
+              "s": 64
+            }
+          },
+          {
+            "accent": {
+              "h": 120,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 120,
+              "l": 8,
+              "s": 66
+            }
+          },
+          {
+            "accent": {
+              "h": 150,
+              "l": 56,
+              "s": 94
+            },
+            "background": {
+              "h": 150,
+              "l": 9,
+              "s": 60
+            }
+          },
+          {
+            "accent": {
+              "h": 180,
+              "l": 58,
+              "s": 98
+            },
+            "background": {
+              "h": 180,
+              "l": 8,
+              "s": 66
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 210,
+              "l": 7,
+              "s": 70
+            }
+          },
+          {
+            "accent": {
+              "h": 240,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 240,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 270,
+              "l": 58,
+              "s": 96
+            },
+            "background": {
+              "h": 270,
+              "l": 9,
+              "s": 64
+            }
+          },
+          {
+            "accent": {
+              "h": 300,
+              "l": 60,
+              "s": 98
+            },
+            "background": {
+              "h": 300,
+              "l": 10,
+              "s": 62
+            }
+          },
+          {
+            "accent": {
+              "h": 330,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 330,
+              "l": 9,
+              "s": 66
+            }
+          },
+          {
+            "accent": {
+              "h": 15,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 15,
+              "l": 10,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 45,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 45,
+              "l": 10,
+              "s": 74
+            }
+          },
+          {
+            "accent": {
+              "h": 75,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 75,
+              "l": 10,
+              "s": 70
+            }
+          },
+          {
+            "accent": {
+              "h": 105,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 105,
+              "l": 9,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 135,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 135,
+              "l": 9,
+              "s": 70
+            }
+          },
+          {
+            "accent": {
+              "h": 165,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 165,
+              "l": 9,
+              "s": 68
+            }
+          },
+          {
+            "accent": {
+              "h": 195,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 195,
+              "l": 8,
+              "s": 70
+            }
+          },
+          {
+            "accent": {
+              "h": 225,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 225,
+              "l": 9,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 255,
+              "l": 61,
+              "s": 100
+            },
+            "background": {
+              "h": 255,
+              "l": 10,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 285,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 285,
+              "l": 9,
+              "s": 70
+            }
+          },
+          {
+            "accent": {
+              "h": 315,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 315,
+              "l": 9,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 345,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 345,
+              "l": 10,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 20,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 20,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 50,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 50,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 140,
+              "l": 63,
+              "s": 100
+            },
+            "background": {
+              "h": 140,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 190,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 190,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 270,
+              "l": 64,
+              "s": 100
+            },
+            "background": {
+              "h": 270,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 320,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 320,
+              "l": 8,
+              "s": 72
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 62,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 300,
+              "l": 68,
+              "s": 70
+            },
+            "background": {
+              "h": 0,
+              "l": 10,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 120,
+              "l": 70,
+              "s": 62
+            },
+            "background": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 15,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 10,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 45,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 220,
+              "l": 42,
+              "s": 90
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 56,
+              "s": 90
+            },
+            "background": {
+              "h": 0,
+              "l": 12,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 8,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 18,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 35,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 48,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 58,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 70,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 145,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 175,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 215,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 245,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 280,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 335,
+              "l": 60,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "s": 88,
+              "l": 38
+            },
+            "background": {
+              "h": 18,
+              "s": 16,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 2,
+              "s": 90,
+              "l": 42
+            },
+            "background": {
+              "h": 20,
+              "s": 17,
+              "l": 9
+            }
+          },
+          {
+            "accent": {
+              "h": 3,
+              "s": 92,
+              "l": 46
+            },
+            "background": {
+              "h": 21,
+              "s": 18,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 5,
+              "s": 94,
+              "l": 50
+            },
+            "background": {
+              "h": 23,
+              "s": 19,
+              "l": 11
+            }
+          },
+          {
+            "accent": {
+              "h": 6,
+              "s": 96,
+              "l": 54
+            },
+            "background": {
+              "h": 24,
+              "s": 20,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 8,
+              "s": 98,
+              "l": 58
+            },
+            "background": {
+              "h": 26,
+              "s": 21,
+              "l": 13
+            }
+          },
+          {
+            "accent": {
+              "h": 9,
+              "s": 100,
+              "l": 62
+            },
+            "background": {
+              "h": 27,
+              "s": 22,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 11,
+              "s": 100,
+              "l": 38
+            },
+            "background": {
+              "h": 29,
+              "s": 23,
+              "l": 9
+            }
+          },
+          {
+            "accent": {
+              "h": 13,
+              "s": 100,
+              "l": 42
+            },
+            "background": {
+              "h": 31,
+              "s": 16,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 14,
+              "s": 88,
+              "l": 46
+            },
+            "background": {
+              "h": 32,
+              "s": 17,
+              "l": 11
+            }
+          },
+          {
+            "accent": {
+              "h": 7,
+              "s": 80,
+              "l": 40
+            },
+            "background": {
+              "h": 7,
+              "s": 10,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 26,
+              "s": 84,
+              "l": 43
+            },
+            "background": {
+              "h": 26,
+              "s": 13,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 45,
+              "s": 88,
+              "l": 46
+            },
+            "background": {
+              "h": 45,
+              "s": 16,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 64,
+              "s": 92,
+              "l": 49
+            },
+            "background": {
+              "h": 64,
+              "s": 19,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 83,
+              "s": 96,
+              "l": 52
+            },
+            "background": {
+              "h": 83,
+              "s": 22,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 102,
+              "s": 100,
+              "l": 55
+            },
+            "background": {
+              "h": 102,
+              "s": 25,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 121,
+              "s": 80,
+              "l": 58
+            },
+            "background": {
+              "h": 121,
+              "s": 10,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 140,
+              "s": 84,
+              "l": 40
+            },
+            "background": {
+              "h": 140,
+              "s": 13,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 159,
+              "s": 88,
+              "l": 43
+            },
+            "background": {
+              "h": 159,
+              "s": 16,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 178,
+              "s": 92,
+              "l": 46
+            },
+            "background": {
+              "h": 178,
+              "s": 19,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 197,
+              "s": 96,
+              "l": 49
+            },
+            "background": {
+              "h": 197,
+              "s": 22,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 216,
+              "s": 100,
+              "l": 52
+            },
+            "background": {
+              "h": 216,
+              "s": 25,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 235,
+              "s": 80,
+              "l": 55
+            },
+            "background": {
+              "h": 235,
+              "s": 10,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 254,
+              "s": 84,
+              "l": 58
+            },
+            "background": {
+              "h": 254,
+              "s": 13,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 273,
+              "s": 88,
+              "l": 40
+            },
+            "background": {
+              "h": 273,
+              "s": 16,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 292,
+              "s": 92,
+              "l": 43
+            },
+            "background": {
+              "h": 292,
+              "s": 19,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 311,
+              "s": 96,
+              "l": 46
+            },
+            "background": {
+              "h": 311,
+              "s": 22,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 330,
+              "s": 100,
+              "l": 49
+            },
+            "background": {
+              "h": 330,
+              "s": 25,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 349,
+              "s": 80,
+              "l": 52
+            },
+            "background": {
+              "h": 349,
+              "s": 10,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 8,
+              "s": 84,
+              "l": 55
+            },
+            "background": {
+              "h": 8,
+              "s": 13,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 27,
+              "s": 88,
+              "l": 58
+            },
+            "background": {
+              "h": 27,
+              "s": 16,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 46,
+              "s": 92,
+              "l": 40
+            },
+            "background": {
+              "h": 46,
+              "s": 19,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 65,
+              "s": 96,
+              "l": 43
+            },
+            "background": {
+              "h": 65,
+              "s": 22,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 84,
+              "s": 100,
+              "l": 46
+            },
+            "background": {
+              "h": 84,
+              "s": 25,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 103,
+              "s": 80,
+              "l": 49
+            },
+            "background": {
+              "h": 103,
+              "s": 10,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 122,
+              "s": 84,
+              "l": 52
+            },
+            "background": {
+              "h": 122,
+              "s": 13,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 141,
+              "s": 88,
+              "l": 55
+            },
+            "background": {
+              "h": 141,
+              "s": 16,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 160,
+              "s": 92,
+              "l": 58
+            },
+            "background": {
+              "h": 160,
+              "s": 19,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 179,
+              "s": 96,
+              "l": 40
+            },
+            "background": {
+              "h": 179,
+              "s": 22,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 198,
+              "s": 100,
+              "l": 43
+            },
+            "background": {
+              "h": 198,
+              "s": 25,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 217,
+              "s": 80,
+              "l": 46
+            },
+            "background": {
+              "h": 217,
+              "s": 10,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 236,
+              "s": 84,
+              "l": 49
+            },
+            "background": {
+              "h": 236,
+              "s": 13,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 255,
+              "s": 88,
+              "l": 52
+            },
+            "background": {
+              "h": 255,
+              "s": 16,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 274,
+              "s": 92,
+              "l": 55
+            },
+            "background": {
+              "h": 274,
+              "s": 19,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 293,
+              "s": 96,
+              "l": 58
+            },
+            "background": {
+              "h": 293,
+              "s": 22,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 312,
+              "s": 100,
+              "l": 40
+            },
+            "background": {
+              "h": 312,
+              "s": 25,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 331,
+              "s": 80,
+              "l": 43
+            },
+            "background": {
+              "h": 331,
+              "s": 10,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 350,
+              "s": 84,
+              "l": 46
+            },
+            "background": {
+              "h": 350,
+              "s": 13,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 9,
+              "s": 88,
+              "l": 49
+            },
+            "background": {
+              "h": 9,
+              "s": 16,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 28,
+              "s": 92,
+              "l": 52
+            },
+            "background": {
+              "h": 28,
+              "s": 19,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 47,
+              "s": 96,
+              "l": 55
+            },
+            "background": {
+              "h": 47,
+              "s": 22,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 66,
+              "s": 100,
+              "l": 58
+            },
+            "background": {
+              "h": 66,
+              "s": 25,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 85,
+              "s": 80,
+              "l": 40
+            },
+            "background": {
+              "h": 85,
+              "s": 10,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 104,
+              "s": 84,
+              "l": 43
+            },
+            "background": {
+              "h": 104,
+              "s": 13,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 123,
+              "s": 88,
+              "l": 46
+            },
+            "background": {
+              "h": 123,
+              "s": 16,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 142,
+              "s": 92,
+              "l": 49
+            },
+            "background": {
+              "h": 142,
+              "s": 19,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 161,
+              "s": 96,
+              "l": 52
+            },
+            "background": {
+              "h": 161,
+              "s": 22,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 180,
+              "s": 100,
+              "l": 55
+            },
+            "background": {
+              "h": 180,
+              "s": 25,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 199,
+              "s": 80,
+              "l": 58
+            },
+            "background": {
+              "h": 199,
+              "s": 10,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 218,
+              "s": 84,
+              "l": 40
+            },
+            "background": {
+              "h": 218,
+              "s": 13,
+              "l": 16
+            }
+          }
+        ],
+        "light": [
+          {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 86,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 92,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 72,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 88,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 58,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 84,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 64,
+              "s": 10
+            },
+            "background": {
+              "h": 210,
+              "l": 92,
+              "s": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 220,
+              "l": 70,
+              "s": 12
+            },
+            "background": {
+              "h": 220,
+              "l": 90,
+              "s": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 66,
+              "s": 10
+            },
+            "background": {
+              "h": 30,
+              "l": 90,
+              "s": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 0,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 30,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 88,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 200,
+              "l": 42,
+              "s": 8
+            },
+            "background": {
+              "h": 200,
+              "l": 90,
+              "s": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 76,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 92,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 90,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 94,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 94,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 15,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 90,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 100,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 97,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 92,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 94,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 80,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 90,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 68,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 86,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 68,
+              "s": 12
+            },
+            "background": {
+              "h": 210,
+              "l": 94,
+              "s": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 50,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 48,
+              "s": 98
+            },
+            "background": {
+              "h": 30,
+              "l": 94,
+              "s": 48
+            }
+          },
+          {
+            "accent": {
+              "h": 60,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 60,
+              "l": 97,
+              "s": 36
+            }
+          },
+          {
+            "accent": {
+              "h": 90,
+              "l": 48,
+              "s": 96
+            },
+            "background": {
+              "h": 90,
+              "l": 95,
+              "s": 40
+            }
+          },
+          {
+            "accent": {
+              "h": 120,
+              "l": 44,
+              "s": 100
+            },
+            "background": {
+              "h": 120,
+              "l": 96,
+              "s": 38
+            }
+          },
+          {
+            "accent": {
+              "h": 150,
+              "l": 46,
+              "s": 94
+            },
+            "background": {
+              "h": 150,
+              "l": 95,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 180,
+              "l": 48,
+              "s": 98
+            },
+            "background": {
+              "h": 180,
+              "l": 96,
+              "s": 40
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 50,
+              "s": 100
+            },
+            "background": {
+              "h": 210,
+              "l": 97,
+              "s": 34
+            }
+          },
+          {
+            "accent": {
+              "h": 240,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 240,
+              "l": 96,
+              "s": 36
+            }
+          },
+          {
+            "accent": {
+              "h": 270,
+              "l": 48,
+              "s": 96
+            },
+            "background": {
+              "h": 270,
+              "l": 95,
+              "s": 38
+            }
+          },
+          {
+            "accent": {
+              "h": 300,
+              "l": 50,
+              "s": 98
+            },
+            "background": {
+              "h": 300,
+              "l": 96,
+              "s": 40
+            }
+          },
+          {
+            "accent": {
+              "h": 330,
+              "l": 48,
+              "s": 100
+            },
+            "background": {
+              "h": 330,
+              "l": 94,
+              "s": 44
+            }
+          },
+          {
+            "accent": {
+              "h": 15,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 15,
+              "l": 96,
+              "s": 44
+            }
+          },
+          {
+            "accent": {
+              "h": 45,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 45,
+              "l": 96,
+              "s": 40
+            }
+          },
+          {
+            "accent": {
+              "h": 75,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 75,
+              "l": 96,
+              "s": 38
+            }
+          },
+          {
+            "accent": {
+              "h": 105,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 105,
+              "l": 96,
+              "s": 36
+            }
+          },
+          {
+            "accent": {
+              "h": 135,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 135,
+              "l": 95,
+              "s": 36
+            }
+          },
+          {
+            "accent": {
+              "h": 165,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 165,
+              "l": 95,
+              "s": 38
+            }
+          },
+          {
+            "accent": {
+              "h": 195,
+              "l": 52,
+              "s": 100
+            },
+            "background": {
+              "h": 195,
+              "l": 96,
+              "s": 38
+            }
+          },
+          {
+            "accent": {
+              "h": 225,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 225,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 255,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 255,
+              "l": 96,
+              "s": 40
+            }
+          },
+          {
+            "accent": {
+              "h": 285,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 285,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 315,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 315,
+              "l": 95,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 345,
+              "l": 54,
+              "s": 100
+            },
+            "background": {
+              "h": 345,
+              "l": 96,
+              "s": 44
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 70,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 20,
+              "l": 72,
+              "s": 100
+            },
+            "background": {
+              "h": 20,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 50,
+              "l": 72,
+              "s": 100
+            },
+            "background": {
+              "h": 50,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 140,
+              "l": 74,
+              "s": 100
+            },
+            "background": {
+              "h": 140,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 190,
+              "l": 72,
+              "s": 100
+            },
+            "background": {
+              "h": 190,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 270,
+              "l": 74,
+              "s": 100
+            },
+            "background": {
+              "h": 270,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 320,
+              "l": 72,
+              "s": 100
+            },
+            "background": {
+              "h": 320,
+              "l": 96,
+              "s": 42
+            }
+          },
+          {
+            "accent": {
+              "h": 210,
+              "l": 68,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 300,
+              "l": 76,
+              "s": 72
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 120,
+              "l": 78,
+              "s": 66
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 18,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 0,
+              "l": 50,
+              "s": 0
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 220,
+              "l": 48,
+              "s": 92
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 30,
+              "l": 62,
+              "s": 92
+            },
+            "background": {
+              "h": 0,
+              "l": 96,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 85,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 95,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 110,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 125,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 155,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 175,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 185,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 205,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 215,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 245,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 265,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 295,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 335,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 350,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 10,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 35,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 55,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 70,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 80,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 100,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 130,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 145,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 160,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 170,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 230,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 250,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 280,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 310,
+              "l": 58,
+              "s": 100
+            },
+            "background": {
+              "h": 0,
+              "l": 8,
+              "s": 0
+            }
+          },
+          {
+            "accent": {
+              "h": 13,
+              "s": 80,
+              "l": 40
+            },
+            "background": {
+              "h": 13,
+              "s": 10,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 32,
+              "s": 84,
+              "l": 43
+            },
+            "background": {
+              "h": 32,
+              "s": 13,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 51,
+              "s": 88,
+              "l": 46
+            },
+            "background": {
+              "h": 51,
+              "s": 16,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 70,
+              "s": 92,
+              "l": 49
+            },
+            "background": {
+              "h": 70,
+              "s": 19,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 89,
+              "s": 96,
+              "l": 52
+            },
+            "background": {
+              "h": 89,
+              "s": 22,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 108,
+              "s": 100,
+              "l": 55
+            },
+            "background": {
+              "h": 108,
+              "s": 25,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 127,
+              "s": 80,
+              "l": 58
+            },
+            "background": {
+              "h": 127,
+              "s": 10,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 146,
+              "s": 84,
+              "l": 40
+            },
+            "background": {
+              "h": 146,
+              "s": 13,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 165,
+              "s": 88,
+              "l": 43
+            },
+            "background": {
+              "h": 165,
+              "s": 16,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 184,
+              "s": 92,
+              "l": 46
+            },
+            "background": {
+              "h": 184,
+              "s": 19,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 203,
+              "s": 96,
+              "l": 49
+            },
+            "background": {
+              "h": 203,
+              "s": 22,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 222,
+              "s": 100,
+              "l": 52
+            },
+            "background": {
+              "h": 222,
+              "s": 25,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 241,
+              "s": 80,
+              "l": 55
+            },
+            "background": {
+              "h": 241,
+              "s": 10,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 260,
+              "s": 84,
+              "l": 58
+            },
+            "background": {
+              "h": 260,
+              "s": 13,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 279,
+              "s": 88,
+              "l": 40
+            },
+            "background": {
+              "h": 279,
+              "s": 16,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 298,
+              "s": 92,
+              "l": 43
+            },
+            "background": {
+              "h": 298,
+              "s": 19,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 317,
+              "s": 96,
+              "l": 46
+            },
+            "background": {
+              "h": 317,
+              "s": 22,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 336,
+              "s": 100,
+              "l": 49
+            },
+            "background": {
+              "h": 336,
+              "s": 25,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 355,
+              "s": 80,
+              "l": 52
+            },
+            "background": {
+              "h": 355,
+              "s": 10,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 14,
+              "s": 84,
+              "l": 55
+            },
+            "background": {
+              "h": 14,
+              "s": 13,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 33,
+              "s": 88,
+              "l": 58
+            },
+            "background": {
+              "h": 33,
+              "s": 16,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 52,
+              "s": 92,
+              "l": 40
+            },
+            "background": {
+              "h": 52,
+              "s": 19,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 71,
+              "s": 96,
+              "l": 43
+            },
+            "background": {
+              "h": 71,
+              "s": 22,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 90,
+              "s": 100,
+              "l": 46
+            },
+            "background": {
+              "h": 90,
+              "s": 25,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 109,
+              "s": 80,
+              "l": 49
+            },
+            "background": {
+              "h": 109,
+              "s": 10,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 128,
+              "s": 84,
+              "l": 52
+            },
+            "background": {
+              "h": 128,
+              "s": 13,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 147,
+              "s": 88,
+              "l": 55
+            },
+            "background": {
+              "h": 147,
+              "s": 16,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 166,
+              "s": 92,
+              "l": 58
+            },
+            "background": {
+              "h": 166,
+              "s": 19,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 185,
+              "s": 96,
+              "l": 40
+            },
+            "background": {
+              "h": 185,
+              "s": 22,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 204,
+              "s": 100,
+              "l": 43
+            },
+            "background": {
+              "h": 204,
+              "s": 25,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 223,
+              "s": 80,
+              "l": 46
+            },
+            "background": {
+              "h": 223,
+              "s": 10,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 242,
+              "s": 84,
+              "l": 49
+            },
+            "background": {
+              "h": 242,
+              "s": 13,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 261,
+              "s": 88,
+              "l": 52
+            },
+            "background": {
+              "h": 261,
+              "s": 16,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 280,
+              "s": 92,
+              "l": 55
+            },
+            "background": {
+              "h": 280,
+              "s": 19,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 299,
+              "s": 96,
+              "l": 58
+            },
+            "background": {
+              "h": 299,
+              "s": 22,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 318,
+              "s": 100,
+              "l": 40
+            },
+            "background": {
+              "h": 318,
+              "s": 25,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 337,
+              "s": 80,
+              "l": 43
+            },
+            "background": {
+              "h": 337,
+              "s": 10,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 356,
+              "s": 84,
+              "l": 46
+            },
+            "background": {
+              "h": 356,
+              "s": 13,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 15,
+              "s": 88,
+              "l": 49
+            },
+            "background": {
+              "h": 15,
+              "s": 16,
+              "l": 14
+            }
+          },
+          {
+            "accent": {
+              "h": 34,
+              "s": 92,
+              "l": 52
+            },
+            "background": {
+              "h": 34,
+              "s": 19,
+              "l": 16
+            }
+          },
+          {
+            "accent": {
+              "h": 53,
+              "s": 96,
+              "l": 55
+            },
+            "background": {
+              "h": 53,
+              "s": 22,
+              "l": 8
+            }
+          },
+          {
+            "accent": {
+              "h": 72,
+              "s": 100,
+              "l": 58
+            },
+            "background": {
+              "h": 72,
+              "s": 25,
+              "l": 10
+            }
+          },
+          {
+            "accent": {
+              "h": 91,
+              "s": 80,
+              "l": 40
+            },
+            "background": {
+              "h": 91,
+              "s": 10,
+              "l": 12
+            }
+          },
+          {
+            "accent": {
+              "h": 110,
+              "s": 84,
+              "l": 43
+            },
+            "background": {
+              "h": 110,
+              "s": 13,
+              "l": 14
+            }
+          }
+        ]
+      },
+      "preview": "wallpaper/preview.png",
+      "saturation_settable": true,
+      "wallpaper": {
+        "animated": true,
+        "type": "video"
+      }
+    }
+  },
+  "name": "Opera One: Blue Hour",
+  "version": "1.0.0"
+}
