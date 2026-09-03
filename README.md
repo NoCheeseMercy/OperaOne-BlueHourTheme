@@ -1,4 +1,4 @@
-# Opera One: Blue Hour — Custom Theme / Mod Package
+# Opera One: Blue Hour —  Opera One Custom Theme
 
 This is a **custom mod/theme package for Opera One**. It bundles video
 wallpapers, browser & keyboard sound packs, color themes, and a 130‑entry
