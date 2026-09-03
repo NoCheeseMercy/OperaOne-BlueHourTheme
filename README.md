@@ -23,7 +23,7 @@ dark color‑set plus 130‑entry light color‑set into a single Opera mod.
 
 > **Sound attribution:** The keyboard sounds and browser sounds in this
 > pack are taken from **Mizumi**, an existing Opera theme created by
-> **Opera Software**. All credit for the audio assets goes to Opera
+**Opera Software**. All credit for the audio assets goes to Opera
 > Software.
 
 ## Required folder structure
@@ -53,13 +53,10 @@ delete assets, or the mod will fail to load.
 ## How to install it locally
 
 1. Download or clone this repository.
-2. In Opera One, open **Settings → Easy setup → Mods** (or go directly to
-   `opera://extensions`).
+2. In Opera One, open `opera://extensions`.
 3. Enable **Developer mode** (top-right toggle).
-4. Click **Load unpacked** and select the `OperaOneHermesTheme` folder.
-5. Open **Easy Setup → Themes / Mods** and pick **Opera One: Blue Hour**.
-   Choose your wallpaper, sound pack, and color-set from the mod's
-   options.
+4. Click **Load unpacked** and select the `OperaOne-BlueHourTheme` folder.
+5. Open **Themes** and pick **Blue Hour**.
 
 ## How to update it
 
