@@ -2,7 +2,7 @@
 
 This is a **custom mod/theme package for Opera One**. It bundles video
 wallpapers, browser & keyboard sound packs, color themes, and a 130‑entry
-dark color‑set plus 130‑entry light color‑set into a single Opera mod.
+dark color‑set plus 130‑entry light color‑set into a single Opera theme.
 
 > **This is NOT a normal Chrome extension.** Even though it uses a
 > `manifest.json` (manifest v3 with Opera's `mod` payload), it must be
