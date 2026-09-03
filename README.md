@@ -91,8 +91,8 @@ Every path referenced in `manifest.json` must exist as-is — don't rename or re
 
 The color system has been checked for structural correctness:
 
-- Dark color-set: **exactly 130 entries**
-- Light color-set: **exactly 130 entries**
+- Dark mode color-set: **exactly 130 entries**
+- Light mode color-set: **exactly 130 entries**
 - Verified against `mod.vibe.color-sets` — valid JSON, 0 invalid HSL values
 - All HSL values fall within `h: 0–360`, `s: 0–100`, `l: 0–100`
 - Every wallpaper, preview, sound, icon, and locale path referenced in `manifest.json` exists in the package
