@@ -2,7 +2,7 @@
 
 **Blue Hour** is a custom theme package for Opera One. It bundles 11 video wallpapers, a full browser and keyboard sound pack, three color themes, and a 260-entry color system (130 dark, 130 light) into a single installable Opera theme.
 
-> **This is not a Chrome extension.** Blue Hour ships a `manifest.json` (Manifest V3 with Opera's `mod` payload), but it only works through Opera's mod/theme loading workflow. It will not install or run in Chrome, and it is not distributed through the Chrome Web Store.
+> **This is not a Chrome extension.** Blue Hour ships a `manifest.json`, but it only works through Opera's theme loading workflow. It will not install or run in Chrome, and it is not distributed through the Chrome Web Store.
 
 ---
 
